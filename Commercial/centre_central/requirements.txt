@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+fastapi
+pydantic
+pydantic-core
+typing-inspection
+werkzeug
