@@ -22,11 +22,11 @@ from centre_local.sync import (
     obtenir_connexion, synchroniser_tous_mouvements,
     obtenir_stock_par_centre, charger_donnees_ventes, reinitialiser_donnees
 )
-
+icon_path = Path(__file__).resolve().parent /"icone.png"
 # Configuration initiale de la page Streamlit (Doit être la première commande st)
 st.set_page_config(
     page_title="Gestion Multi-Centres",
-    page_icon="Commercial/centre_central/icone.png",
+    page_icon=str(icon_path) if icon_path.exists() else "📊",
     layout="wide"
 )
 
