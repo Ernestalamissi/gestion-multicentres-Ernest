@@ -26,7 +26,7 @@ from centre_local.sync import (
 # Configuration initiale de la page Streamlit (Doit être la première commande st)
 st.set_page_config(
     page_title="Gestion Multi-Centres",
-    page_icon="/Users/user/Desktop/Commercial/icone.png",
+    page_icon="Commercial/centre_central/icone.png",
     layout="wide"
 )
 
