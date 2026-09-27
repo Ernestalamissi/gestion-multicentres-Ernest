@@ -13,7 +13,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 # Configuration du chemin pour les modules locaux
 sys.path.append(str(Path(__file__).resolve().parent.parent))
-from centre_local.stockStreamlitNon import (
+from centre_local.stockStreamlit import (
     menu_console_stock, menu_console_ventes, supprimer_produit_stock,
     modifier_produit_stock, afficher_historique_mouvements,
     verifier_integrite_stock
