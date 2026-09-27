@@ -26,7 +26,7 @@ from centre_local.sync import (
 # Configuration initiale de la page Streamlit (Doit être la première commande st)
 st.set_page_config(
     page_title="Gestion Multi-Centres",
-    page_icon="📊",
+    page_icon="/Users/user/Desktop/Commercial/icone.png",
     layout="wide"
 )
 
@@ -85,7 +85,7 @@ def afficher_role_streamlit():
 
     # --- ÉCRAN DE CONNEXION ---
     if not st.session_state.connecte:
-        st.markdown("<h2 style='text-align: center;'>🔐 Connexion à l'Application Multi-Centres</h2>",
+        st.markdown("<h2 style='text-align: center;'>🔐 Connexion </h2>",
                     unsafe_allow_html=True)
         _, col2, _ = st.columns([1, 2, 1])
         with col2:
